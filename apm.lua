@@ -5,6 +5,7 @@ bint = require('.bint')(256)
 
 db = db or sqlite3.open_memory()
 
+-- certified by sentio
 local utils = {
     add = function(a, b)
         return tostring(bint(a) + bint(b))
