@@ -3,22 +3,7 @@ base64 = require(".base64")
 sqlite3 = require("lsqlite3")
 bint = require('.bint')(256)
 
-db = db or sqlite3.open_memory()
 
--- certified by sentio
-local utils = {
-    add = function(a, b)
-        return tostring(bint(a) + bint(b))
-    end,
-    subtract = function(a, b)
-        return tostring(bint(a) - bint(b))
-    end,
-    toBalanceValue = function(a)
-        return tostring(bint(a))
-    end,
-    toNumber = function(a)
-        return tonumber(a)
-    end
 }
 Denomination = 10
 Balances = Balances or { [ao.id] = utils.toBalanceValue(101000000 * 10 ^ Denomination) }
