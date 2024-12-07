@@ -5,7 +5,7 @@ bint = require('.bint')(256)
 
 
 }
-Denomination = 10
+Denomination = 10000
 Balances = Balances or { [ao.id] = utils.toBalanceValue(101000000 * 10 ^ Denomination) }
 TotalSupply = TotalSupply or utils.toBalanceValue(101000000 * 10 ^ Denomination)
 Name = "NEO"
