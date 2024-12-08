@@ -11,7 +11,6 @@ Name = "NEO"
 Ticker = 'NEO'
 Logo = '3rLkpIednEz1kU9h7YplYhEz2bcKvvjd6LBby52cIKo'
 
-------------------------------------------------------
 
 db:exec([[
     CREATE TABLE IF NOT EXISTS Packages (
