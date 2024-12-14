@@ -8,7 +8,6 @@ Handlers.add(
 )
 
 
--- Determines proximity between two points.
 function inRange(x1, y1, x2, y2, range)
     return math.abs(x1 - x2) <= range and math.abs(y1 - y2) <= range
 end
