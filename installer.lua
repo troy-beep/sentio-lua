@@ -1,18 +1,3 @@
--- AO Package Manager for easy installation of packages in ao processes
--------------------------------------------------------------------------
---      ___      .______   .___  ___.     __       __    __       ___
---     /   \     |   _  \  |   \/   |    |  |     |  |  |  |     /   \
---    /  ^  \    |  |_)  | |  \  /  |    |  |     |  |  |  |    /  ^  \
---   /  /_\  \   |   ___/  |  |\/|  |    |  |     |  |  |  |   /  /_\  \
---  /  _____  \  |  |      |  |  |  |  __|  `----.|  `--'  |  /  _____  \
--- /__/     \__\ | _|      |__|  |__| (__)_______| \______/  /__/     \__\
---
----------------------------------------------------------------------------
--- APM Registry source code: https://github.com/betteridea-dev/ao-package-manager
--- CLI tool for managing packages: https://www.npmjs.com/package/apm-tool
--- Web UI for browsing & publishing packages: https://apm.betteridea.dev
--- Built with ❤️ by BetterIDEa
-
 local apm_id = "DKF8oXtPvh3q8s0fJFIeHFyHNM6oKrwMCUrPxEMroak"
 local apm_version = "2.0.5"
 
